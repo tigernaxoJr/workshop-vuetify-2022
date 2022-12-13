@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>建立專案 on KTGH Vuetify Workshop 2022</title>
+    <link>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/</link>
+    <description>Recent content in 建立專案 on KTGH Vuetify Workshop 2022</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Dec 2022 14:43:54 +0800</lastBuildDate><atom:link href="https://tigernaxojr.github.io/workshop-vuetify-2022/02project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>建立專案</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/01create/</link>
+      <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
+      
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/01create/</guid>
+      <description>Create Vuetify Project建立專案輸入 npm create vuetify
+npm create vuetify 輸入專案名稱、Use Typescript選No、安裝程式選 npm。
+專案架構啟動專案cd v3-appcode .npm run dev ReferenceVuetify-next </description>
+    </item>
+    
+    <item>
+      <title>設置專案</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/02conf/</link>
+      <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
+      
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/02conf/</guid>
+      <description>dev server configuration static resource: icon font cdn
+vite server proxyvite.config.js https://vitejs.dev/config/
+server: { port: 3000, proxy: { // http://localhost:3000/api -&amp;gt; http://localhost:4567api/ &amp;#39;/api&amp;#39;: &amp;#39;http://localhost:4567&amp;#39;, } }, .eslintrc.jsmodule.exports = { extends: [&amp;#34;plugin:vue/essential&amp;#34;, &amp;#34;eslint:recommended&amp;#34;, &amp;#34;@vue/prettier&amp;#34;], parserOptions: { parser: &amp;#34;babel-eslint&amp;#34; }, rules: { semi: [&amp;#34;error&amp;#34;, &amp;#34;always&amp;#34;], &amp;#34;no-console&amp;#34;: &amp;#34;off&amp;#34; } }; .prettierrc.jsmodule.exports = { semi: false, singleQuote: true, arrowParens: &amp;#34;avoid&amp;#34; }; </description>
+    </item>
+    
+    <item>
+      <title>靜態資源</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/03resource/</link>
+      <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
+      
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/03resource/</guid>
+      <description>static resource: icon font cdn 使用外部 cdn 樓下無法上網的電腦讀不到</description>
+    </item>
+    
+  </channel>
+</rss>

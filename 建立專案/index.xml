@@ -1,21 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>建立專案 on KTGH Vuetify Workshop 2022</title>
-    <link>https://tigernaxojr.github.io/workshop-vuetify-2022/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88/</link>
-    <description>Recent content in 建立專案 on KTGH Vuetify Workshop 2022</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 13 Dec 2022 14:43:54 +0800</lastBuildDate><atom:link href="https://tigernaxojr.github.io/workshop-vuetify-2022/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>01.建立專案</title>
-      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88/01create/</link>
-      <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
-      
-      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88/01create/</guid>
-      <description>Create Vuetify Project$ npm create vuetify Need to install the following packages: create-vuetify@1.0.4 Ok to proceed? (y) y Vuetify.js - Material Component Framework for Vue √ Project name: ... v3-app √ Use TypeScript? ... No / Yes √ Would you like to install dependencies with yarn, npm, or pnpm? » npm ◌ Generating scaffold... ◌ Installing dependencies with npm... 啟動專案
-cd v3-app code . npm run dev ReferenceVuetify-next </description>
-    </item>
-    
-  </channel>
-</rss>

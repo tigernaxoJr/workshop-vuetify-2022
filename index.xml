@@ -6,44 +6,82 @@
     <description>Recent content on KTGH Vuetify Workshop 2022</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Dec 2022 14:43:54 +0800</lastBuildDate><atom:link href="https://tigernaxojr.github.io/workshop-vuetify-2022/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Dec 2022 14:46:54 +0800</lastBuildDate><atom:link href="https://tigernaxojr.github.io/workshop-vuetify-2022/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>01.建立專案</title>
-      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88/01create/</link>
-      <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
+      <title>新頁面</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/03page/01create.md/</link>
+      <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
       
-      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88/01create/</guid>
-      <description>Create Vuetify Project$ npm create vuetify Need to install the following packages: create-vuetify@1.0.4 Ok to proceed? (y) y Vuetify.js - Material Component Framework for Vue √ Project name: ... v3-app √ Use TypeScript? ... No / Yes √ Would you like to install dependencies with yarn, npm, or pnpm? » npm ◌ Generating scaffold... ◌ Installing dependencies with npm... 啟動專案
-cd v3-app code . npm run dev ReferenceVuetify-next </description>
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/03page/01create.md/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>01.開發環境</title>
-      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D/01env/</link>
+      <title>建立專案</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/01create/</link>
       <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
       
-      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D/01env/</guid>
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/01create/</guid>
+      <description>Create Vuetify Project建立專案輸入 npm create vuetify
+npm create vuetify 輸入專案名稱、Use Typescript選No、安裝程式選 npm。
+專案架構啟動專案cd v3-appcode .npm run dev ReferenceVuetify-next </description>
+    </item>
+    
+    <item>
+      <title>開發環境</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/01env/01env/</link>
+      <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
+      
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/01env/01env/</guid>
       <description>NodeJS VSCode
 git npm </description>
     </item>
     
     <item>
-      <title>02.VSCode</title>
-      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D/02vscode/</link>
-      <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
-      
-      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D/02vscode/</guid>
-      <description>NodeJS VSCode
-git npm VSCodeCtrl-Shift-P 輸入 json 搜尋，選擇 Preference: Open User Settings (JSON) 加入 lint 設置 &amp;#34;files.autoSave&amp;#34;: &amp;#34;onWindowChange&amp;#34;, // 切換視窗自動存檔 &amp;#34;editor.formatOnSave&amp;#34;: true, // 存檔時自動 format &amp;#34;vetur.validation.template&amp;#34;: false, // 關閉 vetur 驗證 &amp;#34;editor.defaultFormatter&amp;#34;: &amp;#34;esbenp.prettier-vscode&amp;#34; // 預設 format 使用 prettier 設置 vscode 排除追蹤檔案 /* node_module、.git 等等資料夾底下有非常多不需要追蹤的檔案， 如果不排除於追蹤清單外，vscode會因為追蹤(watch)的檔案數量檔案達到飽和， 無法對正在編輯的檔案進行追蹤、執行hot reload。 */ &amp;#34;files.watcherExclude&amp;#34;: { &amp;#34;**/.git/objects/**&amp;#34;: true, &amp;#34;**/.git/subtree-cache/**&amp;#34;: true, &amp;#34;**/node_modules/*/**&amp;#34;: true }, </description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>大綱</title>
       <link>https://tigernaxojr.github.io/workshop-vuetify-2022/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
       
       <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/overview/</guid>
       <description>大綱ReferenceVuetify </description>
+    </item>
+    
+    <item>
+      <title>設置專案</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/02conf/</link>
+      <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
+      
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/02conf/</guid>
+      <description>dev server configuration static resource: icon font cdn
+vite server proxyvite.config.js https://vitejs.dev/config/
+server: { port: 3000, proxy: { // http://localhost:3000/api -&amp;gt; http://localhost:4567api/ &amp;#39;/api&amp;#39;: &amp;#39;http://localhost:4567&amp;#39;, } }, .eslintrc.jsmodule.exports = { extends: [&amp;#34;plugin:vue/essential&amp;#34;, &amp;#34;eslint:recommended&amp;#34;, &amp;#34;@vue/prettier&amp;#34;], parserOptions: { parser: &amp;#34;babel-eslint&amp;#34; }, rules: { semi: [&amp;#34;error&amp;#34;, &amp;#34;always&amp;#34;], &amp;#34;no-console&amp;#34;: &amp;#34;off&amp;#34; } }; .prettierrc.jsmodule.exports = { semi: false, singleQuote: true, arrowParens: &amp;#34;avoid&amp;#34; }; </description>
+    </item>
+    
+    <item>
+      <title>路由設置</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/03page/02route/</link>
+      <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
+      
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/03page/02route/</guid>
+      <description>123</description>
+    </item>
+    
+    <item>
+      <title>VSCode</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/01env/02vscode/</link>
+      <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
+      
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/01env/02vscode/</guid>
+      <description>安裝 ExtensionVue Volar extension Pack TypeScript Vue Plugin (Volar) 設置 settings.jsonCtrl-Shift-P 輸入 json 搜尋，選擇 Preference: Open User Settings (JSON) 加入 lint 設置 &amp;#34;files.autoSave&amp;#34;: &amp;#34;onWindowChange&amp;#34;, // 切換視窗自動存檔 &amp;#34;editor.formatOnSave&amp;#34;: true, // 存檔時自動 format &amp;#34;vetur.validation.template&amp;#34;: false, // 關閉 vetur 驗證 (或直接解除安裝 vetur) &amp;#34;editor.defaultFormatter&amp;#34;: &amp;#34;esbenp.prettier-vscode&amp;#34; // 預設 format 使用 prettier 設置 vscode 排除追蹤檔案 /* node_module、.git 等等資料夾底下有非常多不需要追蹤的檔案， 如果不排除於追蹤清單外，vscode會因為追蹤(watch)的檔案數量檔案達到飽和， 無法對正在編輯的檔案進行追蹤、執行hot reload。 */ &amp;#34;files.watcherExclude&amp;#34;: { &amp;#34;**/.git/objects/**&amp;#34;: true, &amp;#34;**/.git/subtree-cache/**&amp;#34;: true, &amp;#34;**/node_modules/*/**&amp;#34;: true }, </description>
+    </item>
+    
+    <item>
+      <title>靜態資源</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/03resource/</link>
+      <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
+      
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/03resource/</guid>
+      <description>static resource: icon font cdn 使用外部 cdn 樓下無法上網的電腦讀不到</description>
     </item>
     
   </channel>
