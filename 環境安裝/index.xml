@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>KTGH Vuetify Workshop 2022</title>
-    <link>https://tigernaxojr.github.io/workshop-vuetify-2022/</link>
-    <description>Recent content on KTGH Vuetify Workshop 2022</description>
+    <title>環境安裝 on KTGH Vuetify Workshop 2022</title>
+    <link>https://tigernaxojr.github.io/workshop-vuetify-2022/%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D/</link>
+    <description>Recent content in 環境安裝 on KTGH Vuetify Workshop 2022</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Dec 2022 14:43:54 +0800</lastBuildDate><atom:link href="https://tigernaxojr.github.io/workshop-vuetify-2022/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>01.建立專案</title>
-      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88/01create/</link>
-      <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
-      
-      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88/01create/</guid>
-      <description>Create Vuetify Project$ npm create vuetify Need to install the following packages: create-vuetify@1.0.4 Ok to proceed? (y) y Vuetify.js - Material Component Framework for Vue √ Project name: ... v3-app √ Use TypeScript? ... No / Yes √ Would you like to install dependencies with yarn, npm, or pnpm? » npm ◌ Generating scaffold... ◌ Installing dependencies with npm... 啟動專案
-cd v3-app code . npm run dev ReferenceVuetify-next </description>
-    </item>
-    
+    <lastBuildDate>Tue, 13 Dec 2022 14:43:54 +0800</lastBuildDate><atom:link href="https://tigernaxojr.github.io/workshop-vuetify-2022/%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>01.開發環境</title>
       <link>https://tigernaxojr.github.io/workshop-vuetify-2022/%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D/01env/</link>
@@ -35,15 +25,6 @@ git npm </description>
       <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D/02vscode/</guid>
       <description>NodeJS VSCode
 git npm VSCodeCtrl-Shift-P 輸入 json 搜尋，選擇 Preference: Open User Settings (JSON) 加入 lint 設置 &amp;#34;files.autoSave&amp;#34;: &amp;#34;onWindowChange&amp;#34;, // 切換視窗自動存檔 &amp;#34;editor.formatOnSave&amp;#34;: true, // 存檔時自動 format &amp;#34;vetur.validation.template&amp;#34;: false, // 關閉 vetur 驗證 &amp;#34;editor.defaultFormatter&amp;#34;: &amp;#34;esbenp.prettier-vscode&amp;#34; // 預設 format 使用 prettier 設置 vscode 排除追蹤檔案 /* node_module、.git 等等資料夾底下有非常多不需要追蹤的檔案， 如果不排除於追蹤清單外，vscode會因為追蹤(watch)的檔案數量檔案達到飽和， 無法對正在編輯的檔案進行追蹤、執行hot reload。 */ &amp;#34;files.watcherExclude&amp;#34;: { &amp;#34;**/.git/objects/**&amp;#34;: true, &amp;#34;**/.git/subtree-cache/**&amp;#34;: true, &amp;#34;**/node_modules/*/**&amp;#34;: true }, </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/overview/</guid>
-      <description>大綱ReferenceVuetify </description>
     </item>
     
   </channel>
