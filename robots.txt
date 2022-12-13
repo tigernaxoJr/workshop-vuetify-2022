@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /tags/*
 
-Sitemap: http://localhost/sitemap.xml
+Sitemap: http://localhost/workshop-vuetify-2022/sitemap.xml
