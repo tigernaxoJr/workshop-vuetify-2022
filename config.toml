@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "http://localhost/workshop-vuetify-2022"
 languageCode = 'en-us'
 title = "Geekdocs"
 theme = "hugo-geekdoc"
