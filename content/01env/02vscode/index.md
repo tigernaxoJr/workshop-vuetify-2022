@@ -3,7 +3,12 @@ title: "VSCode"
 date: 2022-12-13T14:43:54+08:00
 weight: 20
 ---
+
+- [安裝 Extension](#安裝-extension)
+- [設置 settings.json](#設置-settingsjson)
+
 ## 安裝 Extension
+安裝下面這兩個 Extension
 - Vue Volar extension Pack
 - TypeScript Vue Plugin (Volar)
 
