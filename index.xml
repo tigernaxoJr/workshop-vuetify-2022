@@ -88,5 +88,16 @@ Vue Volar extension Pack TypeScript Vue Plugin (Volar) 設置 settings.jsonCtrl
 @font-face { font-family: &amp;#34;EUDC&amp;#34;; font-style: normal; src: url(&amp;#39;https://m-med.ktgh.com.tw/CDN/fonts/EUDC.woff2&amp;#39;) format(&amp;#39;woff2&amp;#39;), url(&amp;#39;https://m-med.ktgh.com.tw/CDN/fonts/EUDC.woff&amp;#39;) format(&amp;#39;woff&amp;#39;), url(&amp;#39;https://m-med.ktgh.com.tw/CDN/fonts/EUDC.ttf&amp;#39;) format(&amp;#39;truetype&amp;#39;); } * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: &amp;#39;其他優先使用的字型&amp;#39;, &amp;#39;EUDC&amp;#39;, sans-serif; font-display: auto; } Referencewordpress-[Web] 網頁顯示光田自造字 </description>
     </item>
     
+    <item>
+      <title>主題設置</title>
+      <link>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/04theme/</link>
+      <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
+      
+      <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/04theme/</guid>
+      <description>主題挑色參考調色盤、前一版本調色盤， Material Theme Builder
+// src/plugins/vuetify.js import &amp;#39;@mdi/font/css/materialdesignicons.css&amp;#39; import &amp;#39;vuetify/styles&amp;#39; // Composables import { createVuetify } from &amp;#39;vuetify&amp;#39; // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides export default createVuetify({ theme: { themes: { light: { colors: { primary: &amp;#39;#1867C0&amp;#39;, secondary: &amp;#39;#5CBBF6&amp;#39;, }, }, }, }, }) Dark ModeReferenceVuetify-Features-Theme configuration Vuetify-Style and animations-Material color palette MATERIAL DESIGN 2 MATERIAL DESIGN 3 mui theme creator 切換主題的方法
+https://stackoverflow.com/questions/62005958/vuetify-toggle-between-light-and-dark-theme-with-vuex </description>
+    </item>
+    
   </channel>
 </rss>
