@@ -16,7 +16,8 @@
       <description> Create Vuetify Project 建立專案 啟動專案 專案架構 Reference Create Vuetify Project建立專案輸入 npm create vuetify 如果提示要安裝 create-vuetify 選 Y。 輸入專案名稱(這裡用 vue3-app)、Use Typescript 選 No、安裝程式選 npm。
 vuetify-cli 在建立完專案之後就會自動安裝套件
 啟動專案進入專案資料夾 cd v3-app 以 VSCode 打開專案 code . ctrl+`打開 console 啟動開發伺服器 npm run dev 結果：
-瀏覽器打開網址 http://127.0.0.1:3000/ 專案架構ReferenceVuetify-next </description>
+瀏覽器打開網址 http://127.0.0.1:3000/
+專案架構ReferenceVuetify-next </description>
     </item>
     
     <item>
