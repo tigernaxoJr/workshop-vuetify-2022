@@ -13,7 +13,8 @@
       <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
       
       <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/03page/01create.md/</guid>
-      <description></description>
+      <description>composition api 架構 bll dal&amp;hellip; etc 資料流方向 (ex:table) component
+decouple </description>
     </item>
     
     <item>
@@ -22,9 +23,10 @@
       <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
       
       <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/01create/</guid>
-      <description>Create Vuetify Project建立專案輸入 npm create vuetify
-npm create vuetify 輸入專案名稱、Use Typescript選No、安裝程式選 npm。
-專案架構啟動專案cd v3-appcode .npm run dev ReferenceVuetify-next </description>
+      <description> Create Vuetify Project 建立專案 啟動專案 專案架構 Reference Create Vuetify Project建立專案輸入 npm create vuetify 如果提示要安裝 create-vuetify 選 Y。 輸入專案名稱(這裡用 vue3-app)、Use Typescript 選 No、安裝程式選 npm。
+vuetify-cli 在建立完專案之後就會自動安裝套件
+啟動專案進入專案資料夾 cd v3-app 以 VSCode 打開專案 code . ctrl+`打開 console 啟動開發伺服器 npm run dev 結果：
+瀏覽器打開網址 http://127.0.0.1:3000/ 專案架構ReferenceVuetify-next </description>
     </item>
     
     <item>
@@ -33,8 +35,7 @@ npm create vuetify 輸入專案名稱、Use Typescript選No、安裝程式選 np
       <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
       
       <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/01env/01env/</guid>
-      <description>NodeJS VSCode
-git npm </description>
+      <description> Git VSCode NodeJS、NPM </description>
     </item>
     
     <item>
@@ -72,7 +73,8 @@ server: { port: 3000, proxy: { // http://localhost:3000/api -&amp;gt; http://loc
       <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
       
       <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/01env/02vscode/</guid>
-      <description>安裝 ExtensionVue Volar extension Pack TypeScript Vue Plugin (Volar) 設置 settings.jsonCtrl-Shift-P 輸入 json 搜尋，選擇 Preference: Open User Settings (JSON) 加入 lint 設置 &amp;#34;files.autoSave&amp;#34;: &amp;#34;onWindowChange&amp;#34;, // 切換視窗自動存檔 &amp;#34;editor.formatOnSave&amp;#34;: true, // 存檔時自動 format &amp;#34;vetur.validation.template&amp;#34;: false, // 關閉 vetur 驗證 (或直接解除安裝 vetur) &amp;#34;editor.defaultFormatter&amp;#34;: &amp;#34;esbenp.prettier-vscode&amp;#34; // 預設 format 使用 prettier 設置 vscode 排除追蹤檔案 /* node_module、.git 等等資料夾底下有非常多不需要追蹤的檔案， 如果不排除於追蹤清單外，vscode會因為追蹤(watch)的檔案數量檔案達到飽和， 無法對正在編輯的檔案進行追蹤、執行hot reload。 */ &amp;#34;files.watcherExclude&amp;#34;: { &amp;#34;**/.git/objects/**&amp;#34;: true, &amp;#34;**/.git/subtree-cache/**&amp;#34;: true, &amp;#34;**/node_modules/*/**&amp;#34;: true }, </description>
+      <description> 安裝 Extension 設置 settings.json 安裝 Extension安裝下面這兩個 Extension
+Vue Volar extension Pack TypeScript Vue Plugin (Volar) 設置 settings.jsonCtrl-Shift-P 輸入 json 搜尋，選擇 Preference: Open User Settings (JSON) 加入 lint 設置 &amp;#34;files.autoSave&amp;#34;: &amp;#34;onWindowChange&amp;#34;, // 切換視窗自動存檔 &amp;#34;editor.formatOnSave&amp;#34;: true, // 存檔時自動 format &amp;#34;vetur.validation.template&amp;#34;: false, // 關閉 vetur 驗證 (或直接解除安裝 vetur) &amp;#34;editor.defaultFormatter&amp;#34;: &amp;#34;esbenp.prettier-vscode&amp;#34; // 預設 format 使用 prettier 設置 vscode 排除追蹤檔案 /* node_module、.git 等等資料夾底下有非常多不需要追蹤的檔案， 如果不排除於追蹤清單外，vscode會因為追蹤(watch)的檔案數量檔案達到飽和， 無法對正在編輯的檔案進行追蹤、執行hot reload。 */ &amp;#34;files.watcherExclude&amp;#34;: { &amp;#34;**/.git/objects/**&amp;#34;: true, &amp;#34;**/.git/subtree-cache/**&amp;#34;: true, &amp;#34;**/node_modules/*/**&amp;#34;: true }, </description>
     </item>
     
     <item>

@@ -13,8 +13,7 @@
       <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
       
       <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/01env/01env/</guid>
-      <description>NodeJS VSCode
-git npm </description>
+      <description> Git VSCode NodeJS、NPM </description>
     </item>
     
     <item>
@@ -23,7 +22,8 @@ git npm </description>
       <pubDate>Tue, 13 Dec 2022 14:43:54 +0800</pubDate>
       
       <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/01env/02vscode/</guid>
-      <description>安裝 ExtensionVue Volar extension Pack TypeScript Vue Plugin (Volar) 設置 settings.jsonCtrl-Shift-P 輸入 json 搜尋，選擇 Preference: Open User Settings (JSON) 加入 lint 設置 &amp;#34;files.autoSave&amp;#34;: &amp;#34;onWindowChange&amp;#34;, // 切換視窗自動存檔 &amp;#34;editor.formatOnSave&amp;#34;: true, // 存檔時自動 format &amp;#34;vetur.validation.template&amp;#34;: false, // 關閉 vetur 驗證 (或直接解除安裝 vetur) &amp;#34;editor.defaultFormatter&amp;#34;: &amp;#34;esbenp.prettier-vscode&amp;#34; // 預設 format 使用 prettier 設置 vscode 排除追蹤檔案 /* node_module、.git 等等資料夾底下有非常多不需要追蹤的檔案， 如果不排除於追蹤清單外，vscode會因為追蹤(watch)的檔案數量檔案達到飽和， 無法對正在編輯的檔案進行追蹤、執行hot reload。 */ &amp;#34;files.watcherExclude&amp;#34;: { &amp;#34;**/.git/objects/**&amp;#34;: true, &amp;#34;**/.git/subtree-cache/**&amp;#34;: true, &amp;#34;**/node_modules/*/**&amp;#34;: true }, </description>
+      <description> 安裝 Extension 設置 settings.json 安裝 Extension安裝下面這兩個 Extension
+Vue Volar extension Pack TypeScript Vue Plugin (Volar) 設置 settings.jsonCtrl-Shift-P 輸入 json 搜尋，選擇 Preference: Open User Settings (JSON) 加入 lint 設置 &amp;#34;files.autoSave&amp;#34;: &amp;#34;onWindowChange&amp;#34;, // 切換視窗自動存檔 &amp;#34;editor.formatOnSave&amp;#34;: true, // 存檔時自動 format &amp;#34;vetur.validation.template&amp;#34;: false, // 關閉 vetur 驗證 (或直接解除安裝 vetur) &amp;#34;editor.defaultFormatter&amp;#34;: &amp;#34;esbenp.prettier-vscode&amp;#34; // 預設 format 使用 prettier 設置 vscode 排除追蹤檔案 /* node_module、.git 等等資料夾底下有非常多不需要追蹤的檔案， 如果不排除於追蹤清單外，vscode會因為追蹤(watch)的檔案數量檔案達到飽和， 無法對正在編輯的檔案進行追蹤、執行hot reload。 */ &amp;#34;files.watcherExclude&amp;#34;: { &amp;#34;**/.git/objects/**&amp;#34;: true, &amp;#34;**/.git/subtree-cache/**&amp;#34;: true, &amp;#34;**/node_modules/*/**&amp;#34;: true }, </description>
     </item>
     
   </channel>
