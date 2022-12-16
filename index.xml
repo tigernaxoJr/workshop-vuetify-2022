@@ -54,9 +54,8 @@ vuetify-cli 在建立完專案之後就會自動安裝套件
       <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
       
       <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/02conf/</guid>
-      <description>dev server configuration static resource: icon font cdn
-vite server proxyvite.config.js https://vitejs.dev/config/
-server: { port: 3000, proxy: { // http://localhost:3000/api -&amp;gt; http://localhost:4567api/ &amp;#39;/api&amp;#39;: &amp;#39;http://localhost:4567&amp;#39;, } }, .eslintrc.jsmodule.exports = { extends: [&amp;#34;plugin:vue/essential&amp;#34;, &amp;#34;eslint:recommended&amp;#34;, &amp;#34;@vue/prettier&amp;#34;], parserOptions: { parser: &amp;#34;babel-eslint&amp;#34; }, rules: { semi: [&amp;#34;error&amp;#34;, &amp;#34;always&amp;#34;], &amp;#34;no-console&amp;#34;: &amp;#34;off&amp;#34; } }; .prettierrc.jsmodule.exports = { semi: false, singleQuote: true, arrowParens: &amp;#34;avoid&amp;#34; }; </description>
+      <description> Vite Server Proxy Linting/Formating .eslintrc.js .prettierrc.js Reference Vite Server Proxy打開 vite.config.js，找到 server，以下設置會使 axios.get(&#39;/api/A&#39;) 等價於 axios.get(&#39;http://localhost:4567/api/A&#39;)，避免開發時會遇到的跨域問題。
+server: { port: 3000, proxy: { // http://localhost:3000/api -&amp;gt; http://localhost:4567api/ &amp;#39;/api&amp;#39;: &amp;#39;http://localhost:4567&amp;#39;, } }, Linting/Formating.eslintrc.jsmodule.exports = { extends: [&amp;#34;plugin:vue/essential&amp;#34;, &amp;#34;eslint:recommended&amp;#34;, &amp;#34;@vue/prettier&amp;#34;], parserOptions: { parser: &amp;#34;babel-eslint&amp;#34; }, rules: { semi: [&amp;#34;error&amp;#34;, &amp;#34;always&amp;#34;], &amp;#34;no-console&amp;#34;: &amp;#34;off&amp;#34; } }; .prettierrc.jsmodule.exports = { semi: false, singleQuote: true, arrowParens: &amp;#34;avoid&amp;#34; }; Referencevite-config </description>
     </item>
     
     <item>
@@ -84,7 +83,9 @@ Vue Volar extension Pack TypeScript Vue Plugin (Volar) 設置 settings.jsonCtrl
       <pubDate>Tue, 13 Dec 2022 14:46:54 +0800</pubDate>
       
       <guid>https://tigernaxojr.github.io/workshop-vuetify-2022/02project/03resource/</guid>
-      <description>static resource: icon font cdn 使用外部 cdn 樓下無法上網的電腦讀不到</description>
+      <description> 光田自造字 Reference 院內無法連外網的電腦讀不到外部 cdn 資源，因此 font、icon、等等&amp;hellip;都要放在專案內，或使用院內的資源
+光田自造字css 加入這一段，會不定時更新
+@font-face { font-family: &amp;#34;EUDC&amp;#34;; font-style: normal; src: url(&amp;#39;https://m-med.ktgh.com.tw/CDN/fonts/EUDC.woff2&amp;#39;) format(&amp;#39;woff2&amp;#39;), url(&amp;#39;https://m-med.ktgh.com.tw/CDN/fonts/EUDC.woff&amp;#39;) format(&amp;#39;woff&amp;#39;), url(&amp;#39;https://m-med.ktgh.com.tw/CDN/fonts/EUDC.ttf&amp;#39;) format(&amp;#39;truetype&amp;#39;); } * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: &amp;#39;其他優先使用的字型&amp;#39;, &amp;#39;EUDC&amp;#39;, sans-serif; font-display: auto; } Referencewordpress-[Web] 網頁顯示光田自造字 </description>
     </item>
     
   </channel>
